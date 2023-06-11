@@ -1,0 +1,215 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+/* bagian navbar */
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+.navbar .logo {
+  color: white;
+  letter-spacing: 2px;
+  margin: 0 40px;
+}
+.navbar .link {
+  margin: 0 40px;
+}
+/*style section link*/
+.link a {
+  text-decoration: none;
+  color: white;
+}
+.link {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.link2:hover {
+  color: darkgreen;
+}
+/* style section logo */
+.logo-icon {
+  width: 30px;
+  margin-right: 5px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+/* bagian home */
+.home {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Pullman\ Danang\ Beach\ Resort\ -\ Special\ offers\ -\ 5-star\ hotel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-attachment: local;
+}
+.home-word {
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+/* bagian product */
+.product {
+  width: 100%;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+.menu-pic {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.menu {
+  width: 200px; 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 10px;
+  box-shadow: 1px 1px 5px 1px rgb(56, 55, 55);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+ul {
+  margin: 0 12px 0 12px;
+  list-style-type: none;
+  text-align: center;
+}
+.product img {
+  height: 200px;
+  width: 200px;
+}
+.menu-pic2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.product p {
+  color: rgb(73, 72, 72);
+  margin-left: 80px;
+  font-size: 18px;
+}
+/* bagian about */
+.ab {
+  height: 500px; 
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.about {
+  display: flex; 
+}
+.about-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+.about .about-p {
+  margin: 0 40px;
+  padding-left: 20px;
+  margin-right: 70px; 
+}
+.about p {
+  font-size: 15px;
+}
+.about-pic img {
+  padding-bottom: 5px;
+  display: flex;
+  margin-left: 50px ;
+}
+/* bagian Service*/
+.service {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding: 20px 0;
+}
+.serv {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.service-left {
+  width: 500px;
+  gap: 15px;
+  margin: 20px 0;
+  margin-right: 20px;
+  align-items: center;
+}
+.service-left img {
+  cursor: pointer;
+}
+.service-right {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  margin-left: 20px;
+}
+.service p {
+ padding: 10px 0;
+ font-size: 15px;
+}
+.service-input {
+  width: 100%;
+  height: 25px;
+}
+textarea {
+  margin-bottom: 5px;
+}
+.service h1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.service img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  align-items: center;
+}
+.yoi {
+  display: flex;
+}
+.service-button {
+  cursor: pointer;
+}
+#msg {
+  color: #16FF00;
+  margin-top: -15px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+/*bagian footer*/
+footer {
+  background-color: black;
+}
+.footer-title {
+  text-align: center;
+  color: rgb(185, 180, 180);
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+  
+
+
+
